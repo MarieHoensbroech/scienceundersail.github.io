@@ -1,0 +1,6 @@
+---
+layout: front-no
+lang: nb
+title: Science under Sail Norge
+permalink: /no/
+---

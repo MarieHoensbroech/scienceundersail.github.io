@@ -1,0 +1,31 @@
+# Site settings
+title: Science under Sail
+description: >-
+  Non-profit field science from sea to summit: ecological fieldwork, data analysis,
+  and expedition support from sailboats in Scandinavia and Spain.
+# Omit baseurl when the site is at the domain root (or keep it as an empty string)
+# baseurl: ""    # only needed for subpath deployments like /project
+url: "https://scienceundersail.no"
+
+# Languages you support (custom variable you can use in Liquid)
+languages:
+  - en
+  - nb
+
+# Contact
+email: info@scienceundersail.no
+
+# Profiles / research presence
+github_username: MarieHoensbroech
+orcid_id: "0000-0002-6329-3213"
+researchgate_url: "https://www.researchgate.net/profile/Marie-Hoensbroech-2"
+inaturalist_url: "https://www.inaturalist.org/people/marie-ho"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# (optional) set your timezone for correct dates
+timezone: "Europe/Oslo"

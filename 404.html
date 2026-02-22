@@ -1,0 +1,45 @@
+---
+layout: default
+title: 404 — vindstille
+permalink: /404.html
+---
+
+<!-- 404: Rent, moderne, maritimt, med profil -->
+<section class="not-found-hero">
+  <div class="container">
+    <div class="not-found-card text-center">
+
+      <!-- Profil–lockup -->
+      <div class="nf-brand">
+        <img
+          src="{{ '/img/icon/logo.png' | relative_url }}"
+          alt="Science under Sail"
+          class="nf-logo"
+          onerror="this.src='{{ '/img/anchorage.png' | relative_url }}'">
+        <div class="nf-wordmark">Science under Sail</div>
+      </div>
+
+      <h1 class="nf-title">Ops — vi sitter nok fast i stillebeltet.</h1>
+      <p class="nf-sub">Denne lenken ser ut til å være ødelagt, eller siden har drevet ut av kurs.</p>
+      <p class="nf-sub">Gå på dekk for en frisk bris, eller hopp rett dit du vil.</p>
+
+      <div class="nf-actions">
+        <a class="btn btn-primary btn-lg" href="{{ '/' | relative_url }}">Til forsiden</a>
+        <a class="btn btn-default btn-lg" href="{{ '/#fleet' | relative_url }}">Se flåten</a>
+        <a class="btn btn-default btn-lg" href="{{ '/#portfolio' | relative_url }}">Våre tjenester</a>
+        <a class="btn btn-default btn-lg" href="{{ '/#contact' | relative_url }}">Kontakt oss</a>
+        <!-- Når kartet er live, erstatt # med URL-en (f.eks. /log/map) -->
+        <a class="btn btn-default btn-lg" href="{{ '/#' | relative_url }}">Loggbok</a>
+      </div>
+
+      <hr class="nf-rule">
+
+      <p class="nf-help">
+        Hvis du mener dette er vår feil, 
+        <a href="{{ '/#contact' | relative_url }}">gi oss gjerne beskjed</a>.
+        Vi slår og retter kursen.
+      </p>
+
+    </div>
+  </div>
+</section>
